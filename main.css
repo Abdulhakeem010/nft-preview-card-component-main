@@ -13,7 +13,7 @@ html{
 
 body{
   font-family: "Outfit", serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-size: 18px;
   background-color:  hsl(216, 50%, 16%);
@@ -60,6 +60,9 @@ p{
    align-items: center;
    gap: 10px;
    color: hsl(178, 100%, 50%); 
+   font-family: "Outfit", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .time{
@@ -67,6 +70,9 @@ p{
    align-items: center;
    gap: 10px;
    color: hsl(215, 51%, 70%);
+   font-family: "Outfit", serif;
+   font-weight: 400;
+   font-style: normal;
 }
 
 
@@ -86,7 +92,7 @@ footer{
 }
 
 .Avatar{
-  border: 1px solid white;
+  border: 2px solid white;
   margin-right: 20px;
    border-radius: 50%;
 }
