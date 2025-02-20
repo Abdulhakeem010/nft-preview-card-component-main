@@ -30,7 +30,7 @@ body {
   width: 325px;
   height: 320px;
   border-radius: 10px;
-  overflow: hidden; /* Ensures overlay stays within the image border */
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -53,8 +53,20 @@ body {
   transition: opacity 0.3s ease-in-out;
 }
 
-.image-container:hover::before {
-  opacity: 1; /* Overlay appears on hover */
+.view-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+}
+
+.image-container:hover::before,
+.image-container:hover .view-icon {
+  opacity: 1; /* Show overlay and icon on hover */
 }
 
 
