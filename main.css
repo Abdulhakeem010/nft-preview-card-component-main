@@ -56,5 +56,10 @@ p{
 }
 
 hr{
+  margin-bottom: 20px;
+  border: none;
   height: 1px;
+  background-color:  hsl(215, 32%, 27%);
 }
+
+
