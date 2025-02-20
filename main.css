@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+  background-color:  hsl(217, 54%, 11%);
+  color: #fff;
+}
+
+body{
+  background-color:  hsl(216, 50%, 16%);
+}
