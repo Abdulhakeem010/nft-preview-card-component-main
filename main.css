@@ -11,4 +11,6 @@ html{
 
 body{
   background-color:  hsl(216, 50%, 16%);
+  width: 30%;
+  margin-inline: auto;
 }
