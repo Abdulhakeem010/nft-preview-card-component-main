@@ -45,7 +45,7 @@ p{
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .info{
@@ -53,6 +53,18 @@ p{
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.amount{
+  display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.time{
+  display: flex;
+   align-items: center;
+   gap: 10px;
 }
 
 hr{
@@ -67,4 +79,10 @@ footer{
   display: flex;
   justify-content: start;
   align-items: center;
+}
+
+.Avatar{
+  border: 1px solid white;
+  margin-right: 20px;
+   border-radius: 50%;
 }
