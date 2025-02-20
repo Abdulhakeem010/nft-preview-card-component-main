@@ -1,45 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-  background-color:  hsl(217, 54%, 11%);
+html {
+  background-color: hsl(217, 54%, 11%);
   color: #fff;
 }
 
-body{
+body {
   font-family: "Outfit", serif;
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
-  background-color:  hsl(216, 50%, 16%);
+  background-color: hsl(216, 50%, 16%);
   width: 26%;
   margin-inline: auto;
   margin-top: 100px;
- padding-block: 25px;
- padding-inline: 25px;
- border-radius: 10px;
+  padding-block: 25px;
+  padding-inline: 25px;
+  border-radius: 10px;
 }
 
-.Equilibrium{
+.Equilibrium {
   margin-bottom: 20px;
   border-radius: 10px;
   width: 325px;
   height: 320px;
 }
 
-h3{
+h3 {
   margin-bottom: 20px;
   font-family: "Outfit", serif;
   font-weight: 600;
   font-style: normal;
 }
 
-p{
+h3:hover{
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+p {
   color: hsl(215, 51%, 70%);
   font-family: "Outfit", serif;
   font-weight: 300;
@@ -48,55 +53,58 @@ p{
   margin-bottom: 25px;
 }
 
-.info{
+.info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 25px;
 }
 
-.amount{
+.amount {
   display: flex;
-   align-items: center;
-   gap: 10px;
-   color: hsl(178, 100%, 50%); 
-   font-family: "Outfit", serif;
+  align-items: center;
+  gap: 10px;
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.time{
+.time {
   display: flex;
-   align-items: center;
-   gap: 10px;
-   color: hsl(215, 51%, 70%);
-   font-family: "Outfit", serif;
-   font-weight: 400;
-   font-style: normal;
+  align-items: center;
+  gap: 10px;
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-
-hr{
+hr {
   margin-bottom: 20px;
   border: none;
   height: 1px;
-  background-color:  hsl(215, 32%, 27%);
+  background-color: hsl(215, 32%, 27%);
 }
 
-
-footer{
+footer {
   display: flex;
   justify-content: start;
   align-items: center;
   margin-bottom: 5px;
 }
 
-.Avatar{
+.Avatar {
   border: 2px solid white;
-  margin-right: 20px;
-   border-radius: 50%;
+  margin-right: 18px;
+  border-radius: 50%;
 }
 
-.avatar-title{
-color: hsl(215, 51%, 70%);
+.avatar-title {
+  color: hsl(215, 51%, 70%);
+}
+
+.avatar-name:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
