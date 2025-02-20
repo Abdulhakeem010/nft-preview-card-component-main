@@ -81,7 +81,7 @@ h3 {
 h3:hover{
   cursor: pointer;
   color: hsl(178, 100%, 50%);
-  transition: 0.3s ease-in-out;
+  /* transition: 0.3s ease-in-out; */
 }
 
 p {
@@ -147,5 +147,5 @@ footer {
 .avatar-name:hover{
   color: hsl(178, 100%, 50%);
   cursor: pointer;
-  transition: 0.3s ease-in-out;
+  /* transition: 0.3s ease-in-out; */
 }
