@@ -89,3 +89,7 @@ footer{
   margin-right: 20px;
    border-radius: 50%;
 }
+
+.avatar-title{
+color: hsl(215, 51%, 70%);
+}
