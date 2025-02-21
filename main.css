@@ -60,15 +60,14 @@ body {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  width: 50px; 
+  width: 50px;
   height: 50px;
 }
 
 .image-container:hover::before,
 .image-container:hover .view-icon {
-  opacity: 1; 
+  opacity: 1;
 }
-
 
 h3 {
   width: fit-content;
@@ -78,10 +77,9 @@ h3 {
   font-style: normal;
 }
 
-h3:hover{
+h3:hover {
   cursor: pointer;
   color: hsl(178, 100%, 50%);
-  /* transition: 0.3s ease-in-out; */
 }
 
 p {
@@ -144,7 +142,7 @@ footer {
   color: hsl(215, 51%, 70%);
 }
 
-.avatar-name:hover{
+.avatar-name:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
   /* transition: 0.3s ease-in-out; */
