@@ -145,5 +145,4 @@ footer {
 .avatar-name:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
-  /* transition: 0.3s ease-in-out; */
 }
